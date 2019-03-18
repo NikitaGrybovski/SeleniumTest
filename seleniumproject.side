@@ -1,0 +1,989 @@
+{
+  "id": "4c9c3b5a-1deb-40bb-8258-669efd7801df",
+  "version": "2.0",
+  "name": "testweb",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "b605ef08-e0da-47a3-b54d-0fa09ffcfc2f",
+    "name": "test2",
+    "commands": [{
+      "id": "a2782095-42da-4d12-96fa-97260ecc4fb6",
+      "comment": "",
+      "command": "open",
+      "target": "/Ptvr16WebLibrary/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5046f0ef-9681-4a45-8e38-f08ef03a1296",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1099x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "934d2488-088d-424e-969d-35dbf92e859c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Войти",
+      "targets": [
+        ["linkText=Войти", "linkText"],
+        ["css=a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Войти')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'showLogin')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d368acbd-ce07-461f-a41c-029a7b09447e",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "435a6ff1-8224-4941-8664-8dc8e4aec625",
+      "comment": "",
+      "command": "type",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "b03c8578-7fcb-4937-acba-e0a32c5fb68c",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "338ba6ac-fb06-4a60-8990-92ca3f05ebfb",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "75fda80e-8af9-4040-8074-3457b0118f57",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7e8b8952-6112-4176-8e14-8df971da18c2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Список книг",
+      "targets": [
+        ["linkText=Список книг", "linkText"],
+        ["css=a:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Список книг')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'showListBooks')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Список книг')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c911a3a-0234-4a34-aa71-e94ee8f83836",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cалам, Всем, Моим",
+      "targets": [
+        ["linkText=Cалам, Всем, Моим", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cалам, Всем, Моим')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'showBook?bookId=1')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cалам, Всем, Моим')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4295f2c-88e1-4c33-80d8-837d8e91e2c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=img",
+      "targets": [
+        ["css=img", "css:finder"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4e55e7f-6135-4934-ade5-46758dbbd773",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa7d30c1-458f-4981-8e14-884809c50742",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Главная страница",
+      "targets": [
+        ["linkText=Главная страница", "linkText"],
+        ["css=a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Главная страница')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'index')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Главная страница')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ecc2c30-6ea1-4c76-a050-cab8ff65ea30",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Изменить пароль",
+      "targets": [
+        ["linkText=Изменить пароль", "linkText"],
+        ["css=a:nth-child(11)", "css:finder"],
+        ["xpath=//a[contains(text(),'Изменить пароль')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'showChangePassword')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Изменить пароль')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb3ae2e8-c594-4695-be5d-cb31eb0eedba",
+      "comment": "",
+      "command": "click",
+      "target": "name=oldPassword",
+      "targets": [
+        ["name=oldPassword", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='oldPassword']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaf093ca-b391-444c-a0e0-1acd3aeda8e6",
+      "comment": "",
+      "command": "type",
+      "target": "name=oldPassword",
+      "targets": [
+        ["name=oldPassword", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='oldPassword']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "c9165852-e4e7-48a5-b1c6-40cd5cbc396a",
+      "comment": "",
+      "command": "type",
+      "target": "name=newPassword1",
+      "targets": [
+        ["name=newPassword1", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='newPassword1']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "790c5ad8-b478-42f0-82b0-a7101f586c07",
+      "comment": "",
+      "command": "type",
+      "target": "name=newPassword2",
+      "targets": [
+        ["name=newPassword2", "name"],
+        ["css=input:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='newPassword2']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "42fe825d-5b52-433c-82d5-afa0f8782bd1",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=newPassword2",
+      "targets": [
+        ["name=newPassword2", "name"],
+        ["css=input:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='newPassword2']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "43a77bfc-93fa-4d99-876d-d254d0b1a3f7",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61683748-f343-4aaf-96f1-80437907ca00",
+      "comment": "",
+      "command": "type",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "11f32b01-771d-4fcc-ae79-7bf84c80399e",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "cd9fe597-2dae-4af8-ba0f-3a68211fd7cf",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c47b52a5-aeda-4edb-b8ba-fa35382b8a31",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Список читателей",
+      "targets": [
+        ["linkText=Список читателей", "linkText"],
+        ["css=a:nth-child(13)", "css:finder"],
+        ["xpath=//a[contains(text(),'Список читателей')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'showListReaders')]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Список читателей')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c5a3a23-1e14-4f3e-bef8-ddb3008f91fa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Главная страница",
+      "targets": [
+        ["linkText=Главная страница", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'Главная страница')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'index')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Главная страница')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e88fc25-05c9-4eba-91df-e5e4a32c4308",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Выдать книгу",
+      "targets": [
+        ["linkText=Выдать книгу", "linkText"],
+        ["css=a:nth-child(15)", "css:finder"],
+        ["xpath=//a[contains(text(),'Выдать книгу')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'showPageForGiveBook')]", "xpath:href"],
+        ["xpath=//a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Выдать книгу')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cf083ac-45bd-419e-9be3-e06ca71399c6",
+      "comment": "",
+      "command": "click",
+      "target": "name=bookId",
+      "targets": [
+        ["name=bookId", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='bookId']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ad7b6fa-58fd-432b-a428-c0994921ba77",
+      "comment": "",
+      "command": "select",
+      "target": "name=bookId",
+      "targets": [],
+      "value": "label=Cалам"
+    }, {
+      "id": "9e1f401f-e0fe-4912-a57f-c254957f2dc2",
+      "comment": "",
+      "command": "click",
+      "target": "name=bookId",
+      "targets": [
+        ["name=bookId", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='bookId']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfd669b0-b9a0-4b43-bbf4-e9eb2687572d",
+      "comment": "",
+      "command": "click",
+      "target": "name=readerId",
+      "targets": [
+        ["name=readerId", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='readerId']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c88f354-db84-406d-a539-d0cbfe2f83c4",
+      "comment": "",
+      "command": "select",
+      "target": "name=readerId",
+      "targets": [],
+      "value": "label=Juri Melnikov"
+    }, {
+      "id": "73fa6a6b-fdec-45a2-9c41-dd64ec0ee04f",
+      "comment": "",
+      "command": "click",
+      "target": "name=readerId",
+      "targets": [
+        ["name=readerId", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='readerId']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "934bc6ee-caaa-4b59-8d5b-8ff3406a68b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='Выдать книгу']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99040cce-0fde-4cd9-86a2-d7d138899f72",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Вернуть книгу",
+      "targets": [
+        ["linkText=Вернуть книгу", "linkText"],
+        ["css=a:nth-child(17)", "css:finder"],
+        ["xpath=//a[contains(text(),'Вернуть книгу')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'showPageForReturnBook')]", "xpath:href"],
+        ["xpath=//a[8]", "xpath:position"],
+        ["xpath=//a[contains(.,'Вернуть книгу')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e602f630-d770-4329-9a4e-c307b0f5d688",
+      "comment": "",
+      "command": "click",
+      "target": "name=returnHistoryId",
+      "targets": [
+        ["name=returnHistoryId", "name"],
+        ["css=select", "css:finder"],
+        ["xpath=//select[@name='returnHistoryId']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35c3e005-2e9d-4b5c-a782-de7fb749896d",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='Вернуть книгу']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1460cf85-28ec-440b-93a9-42581b390ad5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Зарегистрироваться",
+      "targets": [
+        ["linkText=Зарегистрироваться", "linkText"],
+        ["css=a:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Зарегистрироваться')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'showRegistration')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Зарегистрироваться')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e4bd880-e033-47a1-913a-512312461e41",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28988f6e-c9cc-40a5-a498-7e3e8dfb88cd",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nikita"
+    }, {
+      "id": "6c9f36cc-c5e7-4dc7-8889-3ae6754c5ef5",
+      "comment": "",
+      "command": "type",
+      "target": "name=surname",
+      "targets": [
+        ["name=surname", "name"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='surname']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "nikita"
+    }, {
+      "id": "4ab9aeb5-8dae-4b78-b821-511d0912d373",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input:nth-child(8)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "nikita"
+    }, {
+      "id": "f6253d1e-8dc2-45e7-bf40-c333822a9b28",
+      "comment": "",
+      "command": "type",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=input:nth-child(12)", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "nikita"
+    }, {
+      "id": "a0729f46-1037-4a1f-af4d-9b7ad63a4d0a",
+      "comment": "",
+      "command": "type",
+      "target": "name=password1",
+      "targets": [
+        ["name=password1", "name"],
+        ["css=input:nth-child(16)", "css:finder"],
+        ["xpath=//input[@name='password1']", "xpath:attributes"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "nikita"
+    }, {
+      "id": "1ef66c49-61e9-43cc-adad-d1ab721a3bc2",
+      "comment": "",
+      "command": "type",
+      "target": "name=password2",
+      "targets": [
+        ["name=password2", "name"],
+        ["css=input:nth-child(20)", "css:finder"],
+        ["xpath=//input[@name='password2']", "xpath:attributes"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": "nikita"
+    }, {
+      "id": "d758e753-9588-4824-aad3-190f1ed39f7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(23)",
+      "targets": [
+        ["css=input:nth-child(23)", "css:finder"],
+        ["xpath=//input[@value='Зарегистрироваться']", "xpath:attributes"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b729c19-ff30-449c-b614-69f14d9f70ef",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e29e0ee5-52ce-4b06-965d-400e2e488284",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "qwe"
+    }, {
+      "id": "bbe20cbb-fcee-4ee7-866f-b7ccfacb0e9a",
+      "comment": "",
+      "command": "type",
+      "target": "name=surname",
+      "targets": [
+        ["name=surname", "name"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='surname']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "qwe"
+    }, {
+      "id": "e2cde39e-b20c-47cc-83ad-bf1c3b0e8427",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input:nth-child(8)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "qwe"
+    }, {
+      "id": "b24c27ed-46c8-4718-b8b2-5dcc96f075e1",
+      "comment": "",
+      "command": "type",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=input:nth-child(12)", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "qwe"
+    }, {
+      "id": "e88d4044-d415-48b0-9490-ca1f30ef35d3",
+      "comment": "",
+      "command": "type",
+      "target": "name=password1",
+      "targets": [
+        ["name=password1", "name"],
+        ["css=input:nth-child(16)", "css:finder"],
+        ["xpath=//input[@name='password1']", "xpath:attributes"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "qwe"
+    }, {
+      "id": "3bddbfd6-3a06-41c1-8c15-43325f806088",
+      "comment": "",
+      "command": "type",
+      "target": "name=password2",
+      "targets": [
+        ["name=password2", "name"],
+        ["css=input:nth-child(20)", "css:finder"],
+        ["xpath=//input[@name='password2']", "xpath:attributes"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": "qwe"
+    }, {
+      "id": "1929c0d2-0145-4e50-a15e-a3386ba975b9",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password2",
+      "targets": [
+        ["name=password2", "name"],
+        ["css=input:nth-child(20)", "css:finder"],
+        ["xpath=//input[@name='password2']", "xpath:attributes"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "81064e1b-c075-491a-aaae-24a394d25d74",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Войти",
+      "targets": [
+        ["linkText=Войти", "linkText"],
+        ["css=a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Войти')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'showLogin')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b17a9440-f7c1-4439-9359-3a35e3d3c5de",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66339602-35b4-4c6b-870c-eee68668c198",
+      "comment": "",
+      "command": "type",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "qwe"
+    }, {
+      "id": "ce243ae2-1dac-4564-84da-557e9c0ccc48",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29441906-03d3-424d-b042-85e5d015278d",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "qwe"
+    }, {
+      "id": "e6a9d666-8d85-4905-b8c0-9a43e9fb0ebc",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(7)",
+      "targets": [
+        ["css=input:nth-child(7)", "css:finder"],
+        ["xpath=//input[@value='Войти']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05811591-513d-43e4-a2f1-d212d70450ad",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Выйти",
+      "targets": [
+        ["linkText=Выйти", "linkText"],
+        ["css=a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Выйти')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'logout')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Выйти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f640688-9a7e-405e-8ac8-1370ac2a8be4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Войти",
+      "targets": [
+        ["linkText=Войти", "linkText"],
+        ["css=a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Войти')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'showLogin')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fd969c2-d3f7-4d76-8ea8-b49dd39a677f",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53474546-18af-4b5b-8f47-750c18fa6667",
+      "comment": "",
+      "command": "type",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "80cc7b07-c9b4-48df-aa1a-57dae3561a7c",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "ea30ca65-edc1-425c-892d-eb5cde3a3aa2",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f7ac37da-677c-4dce-b7f2-eef84fda24c5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Изменить роль",
+      "targets": [
+        ["linkText=Изменить роль", "linkText"],
+        ["css=a:nth-child(21)", "css:finder"],
+        ["xpath=//a[contains(text(),'Изменить роль')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'showChangeRole')]", "xpath:href"],
+        ["xpath=//a[10]", "xpath:position"],
+        ["xpath=//a[contains(.,'Изменить роль')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f9502b2-0278-4d33-8776-472d32fadf4e",
+      "comment": "",
+      "command": "click",
+      "target": "name=userId",
+      "targets": [
+        ["name=userId", "name"],
+        ["css=select", "css:finder"],
+        ["xpath=//select[@name='userId']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ea074e8-9966-4a26-918f-682900e0b95c",
+      "comment": "",
+      "command": "select",
+      "target": "name=userId",
+      "targets": [],
+      "value": "label=qwe: \"USER\""
+    }, {
+      "id": "6fb738fc-61ba-4d0b-98a5-f9732a48d115",
+      "comment": "",
+      "command": "click",
+      "target": "name=userId",
+      "targets": [
+        ["name=userId", "name"],
+        ["css=select", "css:finder"],
+        ["xpath=//select[@name='userId']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8dda470-9e57-4d27-83ec-59a13c75060f",
+      "comment": "",
+      "command": "click",
+      "target": "name=roleId",
+      "targets": [
+        ["name=roleId", "name"],
+        ["css=p:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='roleId']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6d38280-0d98-44d9-92d0-7078b70771ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(5) > input",
+      "targets": [
+        ["css=p:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@value='Назначить']", "xpath:attributes"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d6d94f6-7951-4b71-88d6-94d8b6398318",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Добавить книгу",
+      "targets": [
+        ["linkText=Добавить книгу", "linkText"],
+        ["css=a:nth-child(19)", "css:finder"],
+        ["xpath=//a[contains(text(),'Добавить книгу')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'showAddNewBook')]", "xpath:href"],
+        ["xpath=//a[9]", "xpath:position"],
+        ["xpath=//a[contains(.,'Добавить книгу')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbfe0a74-2261-4eaf-bcfb-fbc6550cfd59",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "213cc5ff-b479-429b-b9e9-ba21f1e85923",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "qwer"
+    }, {
+      "id": "82e0af2b-4d29-43fe-b4e6-39ec6f619d80",
+      "comment": "",
+      "command": "click",
+      "target": "name=author",
+      "targets": [
+        ["name=author", "name"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='author']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "806d1078-41c8-44d0-bf72-7202a17a8d44",
+      "comment": "",
+      "command": "type",
+      "target": "name=author",
+      "targets": [
+        ["name=author", "name"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='author']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "6aaafef9-f326-439b-8bbe-6023caf1eeb1",
+      "comment": "",
+      "command": "click",
+      "target": "name=isbn",
+      "targets": [
+        ["name=isbn", "name"],
+        ["css=input:nth-child(8)", "css:finder"],
+        ["xpath=//input[@name='isbn']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a08a9b3-3909-4000-bc54-12495daf34ec",
+      "comment": "",
+      "command": "type",
+      "target": "name=isbn",
+      "targets": [
+        ["name=isbn", "name"],
+        ["css=input:nth-child(8)", "css:finder"],
+        ["xpath=//input[@name='isbn']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "13"
+    }, {
+      "id": "54f3bd2d-c76b-45fc-a0c7-eff99612c27c",
+      "comment": "",
+      "command": "click",
+      "target": "name=count",
+      "targets": [
+        ["name=count", "name"],
+        ["css=input:nth-child(11)", "css:finder"],
+        ["xpath=//input[@name='count']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ba93604-ac14-40fa-aa54-d8016790c0c9",
+      "comment": "",
+      "command": "type",
+      "target": "name=count",
+      "targets": [
+        ["name=count", "name"],
+        ["css=input:nth-child(11)", "css:finder"],
+        ["xpath=//input[@name='count']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "31aea123-4d5d-43a2-b9d8-c4f292aa4787",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(17)",
+      "targets": [
+        ["css=input:nth-child(17)", "css:finder"],
+        ["xpath=//input[@value='Добавить книгу']", "xpath:attributes"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "596a9ffe-e852-4e1d-accc-e591a28cca66",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b605ef08-e0da-47a3-b54d-0fa09ffcfc2f"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
