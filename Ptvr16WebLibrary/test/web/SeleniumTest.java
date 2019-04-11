@@ -94,17 +94,17 @@ public class SeleniumTest {
          el.click();
          System.out.println("Введите данные пользователя");
          el = driver.findElement(By.name("name"));
-         el.sendKeys("TestName");
+         el.sendKeys("TestName43");
          el= driver.findElement(By.name("surname"));
-         el.sendKeys("TestSurname");
+         el.sendKeys("TestSurname5345");
          el= driver.findElement(By.name("email"));
-         el.sendKeys("TestEmail");
+         el.sendKeys("TestEmail3453");
          el= driver.findElement(By.name("login"));
-         el.sendKeys("TestLogin");
+         el.sendKeys("TestLogin34534");
          el= driver.findElement(By.name("password1"));
-         el.sendKeys("TestPassword");
+         el.sendKeys("TestPassword345");
          el= driver.findElement(By.name("password2"));
-         el.sendKeys("TestPassword");
+         el.sendKeys("TestPassword3453");
          el= driver.findElement(By.id("enter"));
          el.click();
          System.out.println("Регистрация закончена");
@@ -116,6 +116,13 @@ public class SeleniumTest {
          System.out.println("Добавление тестовой книги");
          WebElement el = driver.findElement(By.id("showAddNewBook"));
          el.click();
+         el = driver.findElement(By.id("showUploadFile"));
+         el.click();
+         driver.findElement(By.id("file")).sendKeys("C:\\Users\\pupil\\Documents\\NetBeansProjects\\JPTVR18\\images\\1.jpg");
+         el = driver.findElement(By.id("description"));
+         el.sendKeys("booktest");
+         el = driver.findElement(By.id("upload"));
+         el.click();
          el = driver.findElement(By.name("name"));
          el.sendKeys("TestBoook");
          el = driver.findElement(By.name("author"));
@@ -124,13 +131,12 @@ public class SeleniumTest {
          el.sendKeys("TestIsbn");
          el = driver.findElement(By.name("count"));
          el.sendKeys("10");
-         el = driver.findElement(By.id("info"));
-         assertEquals("Новая книга добавлена", el.getText());
-         System.out.println("Книга добавлена");
-         el= driver.findElement(By.id("enter"));
+         el = driver.findElement(By.id("enter"));
          el.click();
+        
+         
          
          
      }
-   
+     
 }

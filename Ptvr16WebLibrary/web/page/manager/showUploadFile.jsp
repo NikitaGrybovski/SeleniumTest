@@ -15,9 +15,9 @@
         <h1>Загрузка файла!</h1>
         <p>${info}</p>
         <form action="uploadFile" method="POST" enctype="multipart/form-data">
-            <input type="text" name="description"><br>
-            <input type="file" name="file"><br>
-            <input type="submit" value="Загрузить">
+            <input id="description" type="text" name="description"><br>
+            <input id="file" type="file" name="file"><br>
+            <input id="upload" type="submit" value="upload">
         </form>
         
     </body>
